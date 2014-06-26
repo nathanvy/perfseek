@@ -1,4 +1,4 @@
-#perfseek makefile
+#Makefile for perfseek
 all: perfseek
 
 perfseek:
