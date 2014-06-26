@@ -1,31 +1,33 @@
 #include <iostream>
 #include "inih/INIReader.h"
 
+//yes, this is ugly
+// change this to a single struct or something instead of 25 arguments
 extern "C" void c_levelspeed(double *T0, 
-			   double *RHO0,
-			   double *P0,
-			   double *GAMMA, 
-			   double *MOLARMASSAIR,
-			   double *HEATRATIO, 
-			   double *GASCONSTANT, 
-			   double *G, 
-			   double *S, 
-			   double *oswald, 
-			   double *wingspan, 
-			   double *Cd0, 
-			   double *diameter, 
-			   double *Clmax, 
-			   double *Cprop, 
-			   double *gearratio, 
-			   double *Mplim, 
-			   double *Cmprop, 
-			   double *enginespeed, 
-			   double *HPbrake, 
-			   double *altitude, 
-			   double *n, 
-			   double *weight, 
-			   double *HP2WATTS, 
-			   double *pi);
+			     double *RHO0,
+			     double *P0,
+			     double *GAMMA,
+			     double *MOLARMASSAIR,
+			     double *HEATRATIO, 
+			     double *GASCONSTANT, 
+			     double *G, 
+			     double *S, 
+			     double *oswald, 
+			     double *wingspan, 
+			     double *Cd0, 
+			     double *diameter, 
+			     double *Clmax, 
+			     double *Cprop, 
+			     double *gearratio, 
+			     double *Mplim, 
+			     double *Cmprop, 
+			     double *enginespeed, 
+			     double *HPbrake, 
+			     double *altitude, 
+			     double *n, 
+			     double *weight, 
+			     double *HP2WATTS, 
+			     double *pi);
 
 int main(int argc, char* argv[])
 {  
